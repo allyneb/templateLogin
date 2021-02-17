@@ -7,6 +7,7 @@ const firstPage = document.getElementById('first-page');
 const finalPage = document.getElementById('final');
 const container = document.getElementById('container');
 const finalText = document.getElementById('final-text');
+const JWT_SECRETS = "oamorelindo"
 
 // URL DO AMIGO
 // GET http://52.201.243.86/?pad=bm90ZXMtMS50eHQ=
