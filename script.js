@@ -17,7 +17,7 @@ const verifyToken = () => {
         finalPage.style.display = "initial";
 
         (async () => {
-            const rawResponse = await fetch("http://localhost:3000/api/mensagem_final", {
+            const rawResponse = await fetch("http://35.173.133.80/api/mensagem_final", {
                 method: 'GET',
                 headers: new Headers({
                     'Content-Type': 'application/json; charset=UTF-8',
@@ -71,7 +71,7 @@ login.addEventListener('submit', event => {
         password: login.elements["password"].value
     };
     (async () => {
-        const rawResponse = await fetch("http://localhost:3000/api/login", {
+        const rawResponse = await fetch("http://35.173.133.80/api/login", {
             method: 'POST',
             headers: new Headers({
                 'Content-Type': 'application/json; charset=UTF-8'
